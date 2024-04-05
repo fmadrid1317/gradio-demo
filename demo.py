@@ -9,4 +9,4 @@ demo = gr.Interface(
     outputs=["text"],
 )
 
-demo.launch(share=True, server_name="0.0.0.0")
+demo.launch(share=True, share_server_address="estelinasbuffet.com:7000")
