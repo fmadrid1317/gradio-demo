@@ -9,4 +9,4 @@ demo = gr.Interface(
     outputs=["text"],
 )
 
-demo.launch(server_name="0.0.0.0")
+demo.launch(share=True, server_name="0.0.0.0")
