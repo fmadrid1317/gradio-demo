@@ -7,6 +7,7 @@ demo = gr.Interface(
     fn=greet,
     inputs=["text", "slider"],
     outputs=["text"],
+    server_name="0.0.0.0"
 )
 
 demo.launch()
